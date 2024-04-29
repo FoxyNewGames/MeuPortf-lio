@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body data-bs-theme="dark">
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Meu Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <h4>Felipe Adriano Wisbeck</h4>
+                <hr>
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="mt-5">Ola, me chamo Felipe Adriano Wisbeck</h3>
+                    <p class="lead">Aqui esta presente um pequeno resumo de minhas Hablidades, Experiencias, Formacoes e
+                        Cursos.</p>
+                    <img src="/imgs/-7k84tl.jpg" class="d-block mx-auto w-25" alt="...">
+                    <p>(Arte feita por Arth 665)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Sobre mim</h3>
+                    <p>Sou um desenvolvedor Web iniciante cursando ADS - Analise e Desenvolvimento de Sistemas a 3 anos.
+                        Tenho conhecimento e estudo HTML, CSS, JavaScript e algumas bibliotecas populares como jQuery,
+                        React e
+                        Vue.js.
+                        Atualmente estou trabalhando fora da minha Area.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row text-center">
+                <h5 class="mb-5">Alguns de meus Projetos</h5>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/imgs/berserk.png" class="d-block mx-auto w-50" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                            <br>
+                            <h5 class="text-white">Primeiro Site</h5>
+                            <p>Meu Primeiro "Site", realizei este Trabalho como Primeiro desenvolvimento WEB.</p>
+                            <br>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imgs/mobile.png" class="d-block mx-auto w-20" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                            <br>
+                            <h5 class="text-white">Tentativa de Responsividade</h5>
+                            <p>Primeira vez tentando usar responsividade em alguma aplicação .</p>
+                            <br>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imgs/contador.png" class="d-block mx-auto w-50" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                            <br>
+                            <h5 class="text-white">Desafio Front-End</h5>
+                            <p>Desafio de Criar um Contador numérico para volta as aulas.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>
+                        <br>
+                        <br>
+                        <hr>
+                        Formacao
+                        <br>
+                        <br>
+                        Eletrotécnica
+                        SENAI-Norte 1/Joinville (2019 até 2021)
+                        Ensino básico de elétrica
+                        E.N.F.A.E.L (02/2019 até 03/2019)
+                        <br>
+                        <br>
+                        Analise e Desenvolvimento de Sistemas
+                        SENAI-Norte 1/Joinville (Cursando)
+                        <br>
+                        <br>
+                        Aprendizagem Industrial em Mecânico Industrial
+                        SENAI-Norte 1/Joinville (2023 até 2023)
+                        <br>
+                        <br>
+                        <hr>
+                        Experiência
+                        Relevante
+                        <br>
+                        <br>
+                        Aprendiz Whirlpool (2023 até 2023)
+                        <br>
+                        Realizei Durante 10 meses a Aprendizagem da Whirpool, como Mecânico
+                        Industrial.
+                        Trabalhando na Whirlpool fiquei na Área de Melhoria Kaizen, atendendo
+                        toda a Fabrica.
+                        <br>
+                        <br>
+                        J.S Segurança Eletrônica 02/2021 - 06/2021
+                        <br>
+                        J.S Segurança Eletrônica é uma Micro Empresa não registrada, Realizei
+                        trabalho como “Marido de Aluguel”, trabalhando de tudo mais
+                        principalmente com Segurança Eletrônica(Cercas Elétrica, Portão
+                        Eletrônico, etc.)
+                        <br>
+                        <br>
+                        Dohler S.A - Trabalhanmdo Atualmente
+                        <hr>
+                        <br>
+
+                        <hr>
+                        Habilidades
+                        <br><br>
+                        - Desenvoltura para resolver problemas.
+                        <br><br>
+                        - Programador, conhecimento de boas tecnologias.
+                        <br><br>
+                        - Pensamento Logico Computacional.
+                        <hr>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Me Contate</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Seu Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

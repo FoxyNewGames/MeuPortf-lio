@@ -1,0 +1,12 @@
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.navbar-custom {
+  background-color: #6441a5; /* cor rosa forte e chamativa */
+}
